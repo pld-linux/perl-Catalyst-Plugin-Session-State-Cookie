@@ -8,13 +8,13 @@
 Summary:	Catalyst::Plugin::Session::State::Cookie - A session ID
 Summary(pl):	Catalyst::Plugin::Session::State::Cookie - identyfikatory sesji
 Name:		perl-Catalyst-Plugin-Session-State-Cookie
-Version:	0.01
+Version:	0.02
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	dc64032b8fadf009fc5ecf86b0dfe50b
+# Source0-md5:	360594f169fb795826c68610b6172ca9
 URL:		http://search.cpan.org/dist/Catalyst-Plugin-Session-State-Cookie/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
