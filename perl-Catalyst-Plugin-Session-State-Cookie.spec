@@ -6,7 +6,7 @@
 %define	pdir	Catalyst
 %define	pnam	Plugin-Session-State-Cookie
 Summary:	Catalyst::Plugin::Session::State::Cookie - A session ID
-Summary(pl):	Catalyst::Plugin::Session::State::Cookie - identyfikatory sesji
+Summary(pl.UTF-8):   Catalyst::Plugin::Session::State::Cookie - identyfikatory sesji
 Name:		perl-Catalyst-Plugin-Session-State-Cookie
 Version:	0.02
 Release:	1
@@ -33,13 +33,13 @@ the server.
 This plugin stores the session ID on the client using the cookie
 mechanism.
 
-%description -l pl
-Aby wtyczka Catalyst::Plugin::Session dzia≥a≥a, identyfikator sesji
-musi byÊ przechowywany po stronie klienta, a dane sesji - po stronie
+%description -l pl.UTF-8
+Aby wtyczka Catalyst::Plugin::Session dzia≈Ça≈Ça, identyfikator sesji
+musi byƒá przechowywany po stronie klienta, a dane sesji - po stronie
 serwera.
 
 Ta wtyczka przechowuje identyfikator sesji po stronie klienta przy
-uøyciu mechanizmu ciasteczek (cookie).
+u≈ºyciu mechanizmu ciasteczek (cookie).
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
