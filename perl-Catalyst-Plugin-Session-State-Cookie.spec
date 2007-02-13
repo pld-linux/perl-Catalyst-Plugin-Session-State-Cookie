@@ -6,7 +6,7 @@
 %define	pdir	Catalyst
 %define	pnam	Plugin-Session-State-Cookie
 Summary:	Catalyst::Plugin::Session::State::Cookie - A session ID
-Summary(pl.UTF-8):   Catalyst::Plugin::Session::State::Cookie - identyfikatory sesji
+Summary(pl.UTF-8):	Catalyst::Plugin::Session::State::Cookie - identyfikatory sesji
 Name:		perl-Catalyst-Plugin-Session-State-Cookie
 Version:	0.02
 Release:	1
