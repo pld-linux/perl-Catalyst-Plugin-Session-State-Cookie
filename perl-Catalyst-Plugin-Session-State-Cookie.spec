@@ -45,7 +45,7 @@ użyciu mechanizmu ciasteczek (cookie).
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-%{__perl} Makefile.PL \
+%{__perl} -MExtUtils::MakeMaker -we 'WriteMakefile(NAME=>"Catalyst::Plugin::Session::State::Cookie")' \
 	INSTALLDIRS=vendor
 %{__make}
 
