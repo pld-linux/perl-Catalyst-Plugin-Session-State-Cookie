@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	Catalyst
 %define	pnam	Plugin-Session-State-Cookie
 Summary:	Catalyst::Plugin::Session::State::Cookie - A session ID
